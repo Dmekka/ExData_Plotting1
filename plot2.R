@@ -24,6 +24,6 @@ plot(data$DateTime,
      ylab="Global Active Power (kilowatts)")
 lines(data$DateTime, data$Global_active_power)
 
-# Close PNG file
-dev.off()
+
+dev.off() # Close PNG file
 
