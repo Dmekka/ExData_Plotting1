@@ -54,6 +54,5 @@ legend('topright',
 with(data, plot(DateTime, Global_reactive_power, xlab='datetime', pch=NA))
 with(data, lines(DateTime, Global_reactive_power))
 
-# Close PNG file
-dev.off()
+dev.off() # Close PNG file
 
