@@ -1,5 +1,4 @@
-# plot4.R - Multiplot time series of global active power, voltage,
-#           submetering and global reactive power
+# plot4.R - Multiplot time series of global active power, voltage, submetering and global reactive power
 
 # Read data, convert dates and subset dates 2007-02-01 and 2007-02-02
 data <- read.table('household_power_consumption.txt', sep=';', header=T, 
